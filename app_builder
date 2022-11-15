@@ -1,0 +1,19 @@
+#!/bin/bash
+
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 $@  -o ./build/app *.c
+
+./build/app
+
+# if [ $! -eq 0 ] then;
+# 	echo "Build Successfull!!!"
+
+# 	echo "Run build? y/n"
+
+# 	read response
+
+# 	if [ "$response" -eq "y" ] then;
+# 		echo "running app"
+# 	fi
+# else
+# 	echo "Build Failed!!!"
+# fi
