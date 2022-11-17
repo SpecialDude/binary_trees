@@ -9,8 +9,6 @@
  */
 size_t aux_binary_tree_height(const binary_tree_t *tree)
 {
-	size_t left = 0U, right = 0U;
-
 	if (!tree)
 		return (0U);
 
